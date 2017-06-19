@@ -1,0 +1,29 @@
+Not sure which name to use: Binary Bounce, or Bit Cascade
+
+1 0 0 1 1				Bit cascade
+---------
+	
+|			            |		
+|			            |
+|			            |
+|			            |
+|		1	            |
+|			            |
+|			            |
+|		          	  |
+|			            |
+|   1   0 0 0 0 1 |  24
+| 0 1 0 0 1   1 0 | 212
+-------------------
+
+Have to guide the bit down (using left/right) and place it where required – may overwrite an existing bit
+If player does not stop the bit it bounces when it hits the bottom and then will go upwards (still can be controlled) but will stop as soon as it is in a space (so paralleling the tetris idea) – if the spot at the bottom where it bounces is free then it will stop there
+If the eight bits all present and equal to number on right then row disappears
+New rows push up from below
+Lose when any bit reaches top row
+
+Could have hex on right hand side
+Could have longer bit strings coming off the cascade
+Bit cascade at the top pushes them along/off at a rate that gets faster?
+
+Limitation  - won’t work the other way (calcing decimal from a full binary string)
